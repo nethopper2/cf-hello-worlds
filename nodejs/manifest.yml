@@ -8,3 +8,9 @@ applications:
   stack: cflinuxfs4
   routes:
   - route: hello-world.bosh-lite.com
+  env:
+    VERSION: 0.0.1
+    SERVICEHOSTNAME: hello-world
+    MAINFILE: web.js
+    IMAGEREPOORG: nethopper
+    GITOPSREPO: nethopper/cf-hello-world
