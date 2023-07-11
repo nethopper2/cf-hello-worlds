@@ -1,0 +1,9 @@
+---
+applications:
+- name: go-hello
+  buildpacks:
+  - go_buildpack
+  env:
+    GOVERSION: "1.20"
+  random-route: true
+  stack: cflinuxfs4

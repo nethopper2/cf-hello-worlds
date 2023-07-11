@@ -1,0 +1,10 @@
+---
+applications:
+- name: hello-world
+  random-route: true
+  buildpacks:
+    - nodejs_buildpack
+  memory: 256M
+  stack: cflinuxfs4
+  routes:
+  - route: hello-world.bosh-lite.com
