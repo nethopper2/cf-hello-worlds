@@ -9,7 +9,7 @@ applications:
   routes:
   - route: hello-world.bosh-lite.com
   env:
-    VERSION: 0.0.1
+    VERSION: 0.0.2
     SERVICEURL: hello-world.munford.mynethopper.net
     MAINFILE: web.js
     IMAGEREPO: nethopper/hello-world
