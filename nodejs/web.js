@@ -7,7 +7,7 @@ const version = process.env.VERSION || "0.0.1";
 
 http.createServer( (req, res) => {
   res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.end(`Hello World from NodeJS \nListening on port ${port} \nFrom container ${os.hostname()} \nIn runtime env = ${runTimeEnv} \n`);
+  res.end(`Hello World from NodeJS \n${version} \nListening on port ${port} \nFrom container ${os.hostname()} \nIn runtime env = ${runTimeEnv} \n`);
 }).listen(port, () => {
   console.log("Listening on " + port + "\n");
 });
