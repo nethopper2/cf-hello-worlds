@@ -10,7 +10,7 @@ applications:
   - route: hello-world.bosh-lite.com
   env:
     VERSION: 0.0.1
-    SERVICEHOSTNAME: hello-world
+    SERVICEURL: hello-world.munford.mynethopper.net
     MAINFILE: web.js
-    IMAGEREPOORG: nethopper
+    IMAGEREPO: nethopper/hello-world
     GITOPSREPO: nethopper/cf-hello-world
