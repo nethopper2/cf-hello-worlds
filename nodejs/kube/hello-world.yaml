@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
         - name: hello-world
-          image: 'nethopper/hello-world:0.0.3'
+          image: 'nethopper/hello-world:0.0.1'
           env:
           - name: RUNTIMEENV
             value: "Kubernetes GitOps"
