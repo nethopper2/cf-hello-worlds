@@ -6,8 +6,8 @@ applications:
     - nodejs_buildpack
   memory: 256M
   stack: cflinuxfs4
-  routes:
-  - route: hello-world.bosh-lite.com
+  # routes:
+  # - route: hello-world.bosh-lite.com
   env:
     VERSION: 0.0.3
     SERVICEURL: hello-world.munford.mynethopper.net
