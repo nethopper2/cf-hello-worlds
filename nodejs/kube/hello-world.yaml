@@ -25,12 +25,12 @@ spec:
     spec:
       containers:
         - name: hello-world
-          image: 'nethopper/hello-world:0.0.3'
+          image: 'nethopper/hello-world:0.0.2'
           env:
           - name: RUNTIMEENV
             value: "Kubernetes GitOps"
           - name: VERSION
-            value: 0.0.3
+            value: 0.0.2
           ports:
             - containerPort: 5000
               protocol: TCP
